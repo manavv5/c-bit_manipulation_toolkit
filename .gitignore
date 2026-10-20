@@ -1,0 +1,10 @@
+# Compiled executables
+*.exe
+bit_toolkit
+test_bit_toolkit
+build/
+
+# Editor and OS files
+.vscode/.browse.VC.db*
+.DS_Store
+Thumbs.db
