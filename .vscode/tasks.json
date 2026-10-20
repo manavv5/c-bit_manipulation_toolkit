@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C Bit Manipulation Toolkit",
+      "type": "process",
+      "command": "gcc",
+      "args": [
+        "-std=c99",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-Iinclude",
+        "src/bit_toolkit.c",
+        "src/main.c",
+        "-o",
+        "bit_toolkit.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
